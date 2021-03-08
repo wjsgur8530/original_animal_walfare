@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Result3" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="결과"
+            android:textSize="30dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn1_3"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="종합"
+            android:layout_weight="2"
+            android:background="@drawable/button_square">
+        </Button>
+        <Button
+            android:id="@+id/btn2_3"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="사료"
+            android:layout_weight="2"
+            android:background="@drawable/button_square">
+        </Button>
+
+        <Button
+            android:id="@+id/btn3_3"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:text="환경"
+            android:layout_weight="2"
+            android:background="@drawable/button_square">
+        </Button>
+        <Button
+            android:id="@+id/btn4_3"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="건강"
+            android:layout_weight="2"
+            android:background="@drawable/button_square">
+        </Button>
+        <Button
+            android:id="@+id/btn5_3"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="행동"
+            android:layout_weight="2"
+            android:background="@drawable/button_square">
+        </Button>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/scr3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="점수"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textSize="50dp"
+        android:gravity="center|bottom">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_circle_line_green">
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/listView_3"
+
+                />
+
+        </ScrollView>
+
+
+    </LinearLayout>
+</LinearLayout>
+

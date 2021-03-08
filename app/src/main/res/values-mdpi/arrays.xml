@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="farm">
+        <item>비육농장</item>
+        <item>번식농장</item>
+        <item>일괄사육농장</item>
+        <item>기타농장</item>
+    </string-array>
+</resources>

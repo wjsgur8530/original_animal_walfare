@@ -1,0 +1,9 @@
+<network-security-config>
+    //http 네트워크 통신에 대한 예외처리
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">https://kddlab.kku.ac.kr:5678/survey</domain>
+        <!--
+        <domain includeSubdomains="true">"http://개인 웹 서버 주소/"</domain>
+        -->
+    </domain-config>
+</network-security-config>
